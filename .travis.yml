@@ -2,6 +2,7 @@ language: python
 python:
   - 3.7
 install:
+  - cd /tmp/
   - sudo apt-get install pandoc
   - pip install sphinx sphinx_rtd_theme nbsphinx IPython==6.5.0 jupyter_client ipykernel
   - pip install matplotlib numpy pandas imageio
