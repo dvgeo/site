@@ -7,7 +7,7 @@ install:
   - pip install matplotlib numpy pandas imageio
   - pip install git+https://github.com/Geo-Python-book/sphinxcontrib-versioning.git
   - pip install sphinxcontrib-googleanalytics
-script: sphinx-versioning build source build/html
+script: sphinx-versioning source build/html
 after_success:
   - ./push.sh
 env:
