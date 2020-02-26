@@ -6,7 +6,7 @@ install:
   - sudo apt-get install pandoc
   - pip install sphinx sphinx_rtd_theme nbsphinx IPython==6.5.0 jupyter_client ipykernel
   - pip install matplotlib numpy pandas imageio
-  - pip install git+https://github.com/joopert/sphinxcontrib-versioning.git
+  - pip install git+https://github.com/Geo-Python-book/sphinxcontrib-versioning.git
   - pip install git+https://github.com/jelmer/googleanalytics.git
 script: sphinx-versioning build source build/html
 after_success:
