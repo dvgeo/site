@@ -85,14 +85,14 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-import sphinx_rtd_theme
+#import sphinx_rtd_theme
 
 #html_theme = 'alabaster'
-html_theme = 'sphinx_rtd_theme'
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_theme = 'pandas_sphinx_theme'
+#html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
-def setup(app):
-    app.add_stylesheet('theme_overrides.css')
+#def setup(app):
+#    app.add_stylesheet('theme_overrides.css')
 
 html_logo = 'img/HY-logo-2017.png'
 
@@ -103,9 +103,9 @@ html_last_updated_fmt = ""
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-html_theme_options = {
-    "collapse_navigation" : False
-}
+#html_theme_options = {
+#    "collapse_navigation" : False
+#}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
